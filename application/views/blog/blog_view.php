@@ -18,10 +18,10 @@
                 </div>
                 <div id="post-info" class="row-fluid">
                     <ul>
-                        <li><strong>Author:</strong> <?php echo $posts[$x]->username;?></li>
-                        <li><strong>Date Posted:</strong> <?php echo date('F d, Y', strtotime($posts[$x]->entry_date));?></li>
-                        <li><strong>Comments:</strong> <?php echo $posts[$x]->comment_sum;?></li>
-                        <li><strong><a href="<?php echo base_url().$posts[$x]->url;?>">CONTUNUE READING</a></strong></li>
+                        <li><strong>Autor:</strong> <?php echo $posts[$x]->username;?></li>
+                        <li><strong>Data opublikowania:</strong> <?php echo date('F d, Y', strtotime($posts[$x]->entry_date));?></li>
+                        <li><strong>Komentarze:</strong> <?php echo $posts[$x]->comment_sum;?></li>
+                        <li><strong><a href="<?php echo base_url().$posts[$x]->url;?>">CZYTAJ</a></strong></li>
                     </ul>
                 </div>
             </div>

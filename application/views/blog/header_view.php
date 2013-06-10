@@ -3,7 +3,7 @@
     $title = ucwords(str_replace("-", " ", $title));
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 	<head>
 	    <meta charset="utf-8">
 	    <title><?php if(!empty($title)) echo ucwords($title); else echo COMPANY_NAME;?></title>
@@ -31,7 +31,7 @@
                             <a href="#">O nas</a>
                           </li>
                           <li class="">
-                            <a href="#">kontakt</a>
+                            <a href="#">Kontakt</a>
                           </li>
 
                         </ul>
