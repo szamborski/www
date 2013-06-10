@@ -7,7 +7,7 @@
           <div class="main">
           <div class="row-fluid">
               <div class="page-header">
-                <h2>Dashboard</h2>
+                <h2>Tablica</h2>
               </div>
           </div><!--/row-->
           </div><!--/main-->

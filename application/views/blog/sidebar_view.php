@@ -6,17 +6,17 @@
     </div>
     
     <div id="widget">
-        <h3>Search</h3>
+        <h3>Szukaj</h3>
         <form method="post" action="<?php echo base_url();?>search">
             <div class="input-append">
-                <input class="span2" id="appendedInputButtons" name="keyword" type="text" placeholder="keyword..."/>
-                <button class="btn" type="submit">Search</button>
+                <input class="span2" id="appendedInputButtons" name="keyword" type="text" placeholder="szukane słowo..."/>
+                <button class="btn" type="submit">Szukaj</button>
             </div>
         </form>
     </div>
     
     <div id="widget">
-        <h3>Blogroll</h3>
+        <h3>Skróty</h3>
         <ul>
             <li><a href="#">Link 1</a></li>
             <li><a href="#">Link 2</a></li>

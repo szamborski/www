@@ -19,23 +19,23 @@
       <div class="main">
         <div class="row-fluid">
           
-          <h2>Change Password</h2>
+          <h2>Zmiana hasła</h2>
           <form method="POST" action="" id="accountform">
             <p>
-              <label for="oldpassword"  class="required"><strong>Old Password </strong></label>
+              <label for="oldpassword"  class="required"><strong>Stare hasło </strong></label>
               <input type="password" class="input input-large span5" id="oldpassword" name="oldpassword" />
             </p>
 
             <p>
-              <label for="newpassword" class="required"><strong>New Password <?=anchor_popup('https://accounts.google.com/PasswordHelp', '<i class="icon-question-sign" id="tooltip-right" title="Password Guidelines"></i>', $atts)?></strong></label>
+              <label for="newpassword" class="required"><strong>Nowe hasło <?=anchor_popup('https://accounts.google.com/PasswordHelp', '<i class="icon-question-sign" id="tooltip-right" title="Password Guidelines"></i>', $atts)?></strong></label>
               <input type="password" class="input input-large span5" id="newpassword" name="newpassword" title="At least 8 characters long" />
             </p>
             <p>
-              <label for="newpassword_c" class="required"><strong>Confirm New Password </strong></label>
+              <label for="newpassword_c" class="required"><strong>Powtórz nowe hasło </strong></label>
               <input type="password" class="input input-large span5" id="newpassword_c" name="newpassword_c" />
             </p>
             <p>
-              <button class="btn" type="submit" id="updatepassword">Update Password</button> &nbsp;&nbsp; <a href="">I forgot my password</a>
+              <button class="btn" type="submit" id="updatepassword">Uaktualnij hasło</button> &nbsp;&nbsp; <a href="">Zapomniałem hasła</a>
             </p> 
           </form>
         </div><!--/row-->

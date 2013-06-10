@@ -9,19 +9,19 @@
             <div class="main">
                 <div class="row-fluid">
                     <div class="page-header">
-                        <h2>Blog Posts</h2>
+                        <h2>Wszystkie wiadomości</h2>
                     </div>
                     
-                    <p><a class="btn btn-primary" href="<?php echo base_url(); ?>admin/posts/add-new">Add New Post</a></p>
+                    <p><a class="btn btn-primary" href="<?php echo base_url(); ?>admin/posts/add-new">Dodaj nowy post</a></p>
                     <table class="table table-stripped table-condensed table-bordered">
                         <thead>
                             <tr>
-                                <th>Title</th>
-                                <th>Summary</th>
-                                <th>Author</th>
-                                <th>Date</th>
-                                <th>Comments</th>
-                                <th>Actions</th>
+                                <th>Tytuł</th>
+                                <th>Skrót</th>
+                                <th>Autor</th>
+                                <th>Data</th>
+                                <th>Komentarze</th>
+                                <th>Akcje</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -38,8 +38,8 @@
                                 <td><?php echo date('M d, Y', strtotime($posts[$x]->entry_date));?></td>
                                 <td><?php echo $posts[$x]->comment_sum;?></td>
                                 <td id="actions">
-                                    <a href="<?php echo base_url()?>admin/posts/edit-post/<?php echo $posts[$x]->id; ?>" title="Edit post" id="edit"><i class="icon icon-edit icon-large"></i></a>
-                                    <a href="javascript:void(0);" id="delete" data-id="<?php echo $posts[$x]->id; ?>" title="Delete post"><i class="icon icon-trash icon-large"></i></a>
+                                    <a href="<?php echo base_url()?>admin/posts/edit-post/<?php echo $posts[$x]->id; ?>" title="Edytuj post" id="edit"><i class="icon icon-edit icon-large"></i></a>
+                                    <a href="javascript:void(0);" id="delete" data-id="<?php echo $posts[$x]->id; ?>" title="Usuń post"><i class="icon icon-trash icon-large"></i></a>
                                 </td>
                             </tr>
                             <?php

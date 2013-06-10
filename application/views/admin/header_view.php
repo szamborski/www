@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="utf-8">
     <title><?php
@@ -8,7 +8,7 @@
             $segment = $this->uri->segment($total_segments);
             
             if($total_segments === 0) {
-                echo "Administration Panel";
+                echo "Panel administratora";
             } else {
                 if(is_numeric($segment))
                     echo ucwords(str_replace("-"," ", $this->uri->segment($total_segments-1)));

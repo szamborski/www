@@ -7,11 +7,11 @@
       <div class="main">
         <div class="row-fluid">
           
-          <h2>Public Profile</h2>
+          <h2>Profil publiczny</h2>
           <form method="POST" action="" id="profileform">
             <p>
-              <label for="avatar"><strong>Avatar</strong></label>
-              <div clas="" id="avatar-holder" data-original-title="Click to change avatar.  Size is 160x160">
+              <label for="avatar"><strong>Obrazek</strong></label>
+              <div clas="" id="avatar-holder" data-original-title="Kliknij aby zmienić obrazek. Wielkośc to 160x160">
                 <div id="uploader"><center><i class="icon-upload icon-white"></i> File Select</center></div>
                 <?php $img = ! empty($profile[0]->picture) ? $profile[0]->picture : "default.gif"; ?>
                 <img src="<?=base_url()?>profile/<?=$img?>" class="img-polaroid" />
@@ -20,12 +20,12 @@
               <br />
             </p>
             <p>
-              <label for="lastname"  class="required"><strong>Last Name </strong></label>
+              <label for="lastname"  class="required"><strong>Nazwisko </strong></label>
               <input type="text" class="input input-large span5" id="lastname" name="lastname" value="<?=$profile[0]->lastname ? $profile[0]->lastname : ''?>" />
             </p>
 
             <p>
-              <label for="firstname" class="required"><strong>First Name </strong></label>
+                <label for="firstname"  class="required"><strong>Imię </strong></label>
               <input type="text" class="input input-large span5" id="firstname" name="firstname" value="<?=$profile[0]->firstname ? $profile[0]->firstname : ''?>" />
             </p>
 
@@ -35,17 +35,17 @@
             </p>
             
             <p>
-              <label for="contact" class="required"><strong>Contact Number </strong></label>
+              <label for="contact" class="required"><strong>Telefon kontaktowy </strong></label>
               <input type="text" class="input input-large span5" id="contact" name="contact" title="(code) number" value="<?=$profile[0]->contact ? $profile[0]->contact : ''?>" />
             </p>
 
             <p>
-              <label for="address" class="required"><strong>Address </strong></label>
+              <label for="address" class="required"><strong>Adres </strong></label>
               <input type="text" class="input input-large span5" id="address" name="address" value="<?=$profile[0]->address ? $profile[0]->address : ''?>" />
             </p>
 
             <p>
-              <button class="btn btn-success" type="submit" id="save">Save Profile</button>
+              <button class="btn btn-success" type="submit" id="save">Zapisz profil</button>
             </p>
           </form>
         </div><!--/row-->

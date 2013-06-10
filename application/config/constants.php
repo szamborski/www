@@ -59,7 +59,7 @@ define("HASH_SALT_INDEX", 2);
 define("HASH_PBKDF2_INDEX", 3);
 
 
-define("COMPANY_NAME", "Projekt Zespołowy");
+define("COMPANY_NAME", "Szamborski-Sobótka-Staniszewski");
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */

@@ -25,13 +25,13 @@
                       <div class="nav-collapse collapse">
                         <ul class="nav">
                           <li class="">
-                            <a href="<?php echo base_url();?>">Home</a>
+                            <a href="<?php echo base_url();?>">Strona domowa</a>
                           </li>
                           <li class="">
-                            <a href="#">About Us</a>
+                            <a href="#">O nas</a>
                           </li>
                           <li class="">
-                            <a href="#">Contact Us</a>
+                            <a href="#">kontakt</a>
                           </li>
 
                         </ul>

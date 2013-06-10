@@ -9,19 +9,19 @@
             <div class="main">
                 <div class="row-fluid">
                     <div class="page-header">
-                        <h2>New Blog Post</h2>
+                        <h2>Nowy post</h2>
                     </div>
                     <div class="input-form">
                         <form method="POST" action="" id="entry-form">
-                            <p><label for="title" class="required"><strong>Title</strong></label>
+                            <p><label for="title" class="required"><strong>Tytuł</strong></label>
                                 <input type="text" class="input input-xxlarge" name="title" id="title" />
                             </p>
-                            <p><label for="blogentry" class="required" id="blogentrylabel"><strong>Post</strong></label>
+                            <p><label for="blogentry" class="required" id="blogentrylabel"><strong>Treść</strong></label>
                                 <textarea id="blogentry" name="blogentry" class="input-block-level" rows="10"></textarea>
                             </p>
                             <br />
                             <p>
-                                <button type="submit" class="btn btn-primary" id="savecontent">Post Article</button>
+                                <button type="submit" class="btn btn-primary" id="savecontent">Publikuj post</button>
                             </p>
                         </form>
                     </div>

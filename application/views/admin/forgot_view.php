@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 	<head>
 	    <meta charset="utf-8">
-	    <title>Administration Panel</title>
+	    <title>Panel administratora</title>
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	    <link rel="stylesheet" href="<?=base_url()?>css/bootstrap.min.css" />
@@ -19,7 +19,7 @@
 	<body>
             <div class="container">
                 <form method="post" action="<?=base_url()?>admin/forgot/resend" class="form-signin">
-                    <h2 class="form-signin-heading">Forgot Password</h2><br />
+                    <h2 class="form-signin-heading">Zapomniałem hasła</h2><br />
                     <input type="hidden" name="csrf_name" value="<?=$hash?>" />
                     <input type="text" name="email" class="input input-medium input-block-level" value="" placeholder="Email Address" />
                     <input type="submit" value="Submit" name="submit" class="btn btn-medium" id="submit" data-loading-text="Processing..." /> &nbsp;&nbsp;<?php if($this->session->userdata('is_login') != TRUE){ ?><a href="<?php echo base_url(); ?>admin">Login</a> <?php } ?>
