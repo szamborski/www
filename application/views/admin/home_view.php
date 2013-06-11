@@ -11,15 +11,19 @@
 	    <link rel="stylesheet" href="<?php echo base_url();?>css/global.css" />
 	</head>
 	<body>
+            
             <div class="container">
+
                 <form method="post" action="<?php echo base_url();?>admin/login/auth" class="form-signin">
                     <h2 class="form-signin-heading">Proszę sie zalogować</h2>
                     <input type="hidden" name="csrf_name" value="<?php echo $hash; ?>" />
                     <input type="text" name="username" class="input input-medium input-block-level" value="" placeholder="Nazwa użytkownika..." />
                     <input type="password" name="password" class="input input-medium input-block-level" value=""  placeholder="Hasło" />
                     <input type="submit" value="Login" class="btn btn-primary" /> &nbsp;&nbsp;<a href="<?php echo base_url();?>admin/forgot">Zapomniałem hasła?</a>
-                    <?php
                     
+                        <?php
+                            
+                   
                         $message = ! empty($message) ? $message : $this->session->userdata("message");
                         $alert_type = ! empty($alert_type) ? $alert_type : $this->session->userdata("status");
 

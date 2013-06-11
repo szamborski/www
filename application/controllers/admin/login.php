@@ -24,6 +24,8 @@ class Login extends CI_Controller {
                                 
 				$format = PBKDF2_HASH_ALGORITHM.":".PBKDF2_ITERATIONS.":".$result[0]->salt.":".$result[0]->password;
 				$is_valid = $this->mlib_sec->validate_password($password,$format);
+                                $pokazhaslo = $this->mlib_sec->create_hash(bubs);
+                                echo '5342532525235';
 				
 				if($is_valid === TRUE) {
 

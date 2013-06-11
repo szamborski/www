@@ -21,7 +21,7 @@
 }
 
 body {
-    background: #ccc url(../img/bg.png) repeat;
+    background: #ccc url(../img/b7.jpg) repeat;
     color: #333;
 }
 
@@ -37,6 +37,11 @@ div.container {
     -moz-box-shadow: 0 8px 6px -6px black;
     box-shadow: 0 8px 6px -6px black;
     padding-bottom: 40px;
+    -moz-border-radius:10px; /* FF */
+    -webkit-border-radius:10px; /* przeglądarki z webkitem (Safari, Chrome itp.) */
+    -khtml-border-radius:10px; /* przeglądarki typu K-meleon (typowo Linuxowe) */
+    border-radius:10px; /* pozostałe przeglądarki */
+
 }
 
 div.posts {

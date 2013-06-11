@@ -51,5 +51,7 @@ $route['admin/posts/edit-post/(:num)'] = "admin/posts/edit_post";
 $route['blog/(:num)'] = "blog";
 $route['feed'] = "rss";
 
+$route['kontakt'] = "kontakt";
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
