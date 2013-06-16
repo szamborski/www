@@ -20,6 +20,7 @@
                     <input type="text" name="username" class="input input-medium input-block-level" value="" placeholder="Nazwa użytkownika..." />
                     <input type="password" name="password" class="input input-medium input-block-level" value=""  placeholder="Hasło" />
                     <input type="submit" value="Login" class="btn btn-primary" /> &nbsp;&nbsp;<a href="<?php echo base_url();?>admin/forgot">Zapomniałem hasła?</a>
+                   </br></br> </br><a href="/rejestracja">Rejestracja nowego konta</a>
                     
                         <?php
                             
