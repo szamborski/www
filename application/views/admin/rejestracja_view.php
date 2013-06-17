@@ -77,15 +77,16 @@ $atts = array(
 </div><!--/.fluid-container-->
 
 <footer>
-    <p>&copy; <?php echo COMPANY_NAME;?> <?php echo date('Y'); ?></p>
+    <p>&copy; <?php echo COMPANY_NAME; ?> <?php echo date('Y'); ?></p>
 </footer>
 
 
 
 
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3 id="myModalLabel">Result</h3>
-    </div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Ok</button></div></div>
+    <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3 id="myModalLabel">Zarejestrowano</h3>
+    </div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-primary" data-dismiss="modal" aria-hidden="true" onclick="location.href='blog'">Ok</button></div>
+</div>
 <script type="text/javascript" src="<?= base_url() ?>js/jquery.js"></script>
 <script type="text/javascript" src="<?= base_url() ?>js/fileuploader.js"></script>
 <script type="text/javascript" src="<?= base_url() ?>js/profile.js"></script>

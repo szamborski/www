@@ -201,25 +201,36 @@ $(document).ready(function() {
                     firstname: $('#firstname').val(),
                     email: $('#email').val(),
                     contact: $('#contact').val(),
-                    address: $('#address').val()
-                },
+                    address: $('#address').val()},
                 success: function(response) {
-                    $('.modal-body').empty().append('<p>' + response.message + '');
+                    //  alert("Nie-Utworzono konto");
+                    $('.modal-body').empty().append('<p>' + response.message + '4324324');
                     $('label.ok').remove();
                     console.log(response);
                 },
                 error: function(response) {
-                    $('.modal-body').empty().append(response.message);
+                //    var url = base_url + 'blog';
+                    // alert("Utworzono konto. \n\ Proszę poczekać na akceptację przez administratora. \n\ Dziękujemy");
+                    
+                    $('.modal-body').empty().append('Pomyślnie utworzono nowe konto.\n\ Proszę zaczekać na akceptacje administratora. \n\ Dziękujemy');
+                    $('#myModal').modal("show");
+
+
+                 //   $(location).attr('href', url);
+
                     console.log(response);
                 }
             });
-            $('#myModal').modal("show");
+
+
+            //  $('#myModal').modal("show");
             return false;
         },
         // set new class to error-labels to indicate valid fields
         success: function(label) {
             // set &nbsp; as text for IE
-            label.html("&nbsp;").addClass("ok");
+            label.html("&nbsp;").addClass("bubadsad");
         }
+
     });//Rejestracja
 });
