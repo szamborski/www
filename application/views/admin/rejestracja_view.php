@@ -1,4 +1,15 @@
 <?php $this->load->view("admin/header_view"); ?>
+<?php
+$atts = array(
+    'width' => '600',
+    'height' => '700',
+    'scrollbars' => 'yes',
+    'status' => 'yes',
+    'resizable' => 'no',
+    'screenx' => '0',
+    'screeny' => '0'
+);
+?>
 <div class="container-fluid">
     <div class="row-fluid">
 
@@ -21,8 +32,12 @@
 
 
                         <p>
-                            <label for="newpassword"  class="required"><strong>Hasło </strong></label>
-                            <input type="password" class="input input-large span5" id="newpassword" name="newpassword" value="" />
+                            <label for="newpassword" class="required"><strong>Nowe hasło <?= anchor_popup('https://accounts.google.com/PasswordHelp', '<i class="icon-question-sign" id="tooltip-right" title="Password Guidelines"></i>', $atts) ?></strong></label>
+                            <input type="password" class="input input-large span5" id="newpassword" name="newpassword" title="At least 8 characters long" />
+                        </p>
+                        <p>
+                            <label for="newpassword_c" class="required"><strong>Powtórz nowe hasło </strong></label>
+                            <input type="password" class="input input-large span5" id="newpassword_c" name="newpassword_c" />
                         </p>
 
 

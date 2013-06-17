@@ -9209,3 +9209,120 @@ DEBUG - 2013-06-11 15:41:29 --> Controller Class Initialized
 DEBUG - 2013-06-11 15:41:29 --> File loaded: application/views/admin/home_view.php
 DEBUG - 2013-06-11 15:41:29 --> Final output sent to browser
 DEBUG - 2013-06-11 15:41:29 --> Total execution time: 1.0625
+DEBUG - 2013-06-11 16:02:10 --> Config Class Initialized
+DEBUG - 2013-06-11 16:02:10 --> Hooks Class Initialized
+DEBUG - 2013-06-11 16:02:10 --> Utf8 Class Initialized
+DEBUG - 2013-06-11 16:02:10 --> UTF-8 Support Enabled
+DEBUG - 2013-06-11 16:02:10 --> URI Class Initialized
+DEBUG - 2013-06-11 16:02:10 --> Router Class Initialized
+DEBUG - 2013-06-11 16:02:10 --> No URI present. Default controller set.
+DEBUG - 2013-06-11 16:02:10 --> Output Class Initialized
+DEBUG - 2013-06-11 16:02:10 --> Security Class Initialized
+DEBUG - 2013-06-11 16:02:10 --> Input Class Initialized
+DEBUG - 2013-06-11 16:02:10 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-11 16:02:11 --> Language Class Initialized
+DEBUG - 2013-06-11 16:02:11 --> Loader Class Initialized
+DEBUG - 2013-06-11 16:02:11 --> Helper loaded: url_helper
+DEBUG - 2013-06-11 16:02:11 --> Helper loaded: form_helper
+DEBUG - 2013-06-11 16:02:11 --> Database Driver Class Initialized
+DEBUG - 2013-06-11 16:02:11 --> Session Class Initialized
+DEBUG - 2013-06-11 16:02:11 --> Helper loaded: string_helper
+DEBUG - 2013-06-11 16:02:11 --> Session routines successfully run
+DEBUG - 2013-06-11 16:02:11 --> Controller Class Initialized
+DEBUG - 2013-06-11 16:02:11 --> Pagination Class Initialized
+DEBUG - 2013-06-11 16:02:11 --> Helper loaded: date_helper
+DEBUG - 2013-06-11 16:02:11 --> Helper loaded: text_helper
+DEBUG - 2013-06-11 16:02:11 --> Model Class Initialized
+DEBUG - 2013-06-11 16:02:11 --> Model Class Initialized
+DEBUG - 2013-06-11 16:02:11 --> User Agent Class Initialized
+DEBUG - 2013-06-11 16:02:12 --> Form Validation Class Initialized
+DEBUG - 2013-06-11 16:02:12 --> File loaded: application/views/blog/header_view.php
+DEBUG - 2013-06-11 16:02:12 --> File loaded: application/views/blog/sidebar_view.php
+DEBUG - 2013-06-11 16:02:12 --> File loaded: application/views/blog/footer_view.php
+DEBUG - 2013-06-11 16:02:12 --> File loaded: application/views/blog/blog_view.php
+DEBUG - 2013-06-11 16:02:12 --> Final output sent to browser
+DEBUG - 2013-06-11 16:02:12 --> Total execution time: 2.2500
+DEBUG - 2013-06-11 16:02:14 --> Config Class Initialized
+DEBUG - 2013-06-11 16:02:14 --> Hooks Class Initialized
+DEBUG - 2013-06-11 16:02:15 --> Utf8 Class Initialized
+DEBUG - 2013-06-11 16:02:15 --> UTF-8 Support Enabled
+DEBUG - 2013-06-11 16:02:15 --> URI Class Initialized
+DEBUG - 2013-06-11 16:02:15 --> Router Class Initialized
+DEBUG - 2013-06-11 16:02:15 --> Output Class Initialized
+DEBUG - 2013-06-11 16:02:15 --> Security Class Initialized
+DEBUG - 2013-06-11 16:02:15 --> Input Class Initialized
+DEBUG - 2013-06-11 16:02:15 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-11 16:02:15 --> Language Class Initialized
+DEBUG - 2013-06-11 16:02:15 --> Loader Class Initialized
+DEBUG - 2013-06-11 16:02:15 --> Helper loaded: url_helper
+DEBUG - 2013-06-11 16:02:15 --> Helper loaded: form_helper
+DEBUG - 2013-06-11 16:02:15 --> Database Driver Class Initialized
+DEBUG - 2013-06-11 16:02:15 --> Session Class Initialized
+DEBUG - 2013-06-11 16:02:15 --> Helper loaded: string_helper
+DEBUG - 2013-06-11 16:02:15 --> Session routines successfully run
+DEBUG - 2013-06-11 16:02:15 --> Controller Class Initialized
+DEBUG - 2013-06-11 16:02:15 --> File loaded: application/views/blog/header_view.php
+DEBUG - 2013-06-11 16:02:15 --> File loaded: application/views/blog/sidebar_view.php
+DEBUG - 2013-06-11 16:02:16 --> File loaded: application/views/blog/footer_view.php
+DEBUG - 2013-06-11 16:02:16 --> File loaded: application/views/kontaktview.php
+DEBUG - 2013-06-11 16:02:16 --> Final output sent to browser
+DEBUG - 2013-06-11 16:02:16 --> Total execution time: 1.2344
+DEBUG - 2013-06-11 16:02:17 --> Config Class Initialized
+DEBUG - 2013-06-11 16:02:17 --> Hooks Class Initialized
+DEBUG - 2013-06-11 16:02:17 --> Utf8 Class Initialized
+DEBUG - 2013-06-11 16:02:17 --> UTF-8 Support Enabled
+DEBUG - 2013-06-11 16:02:17 --> URI Class Initialized
+DEBUG - 2013-06-11 16:02:17 --> Router Class Initialized
+DEBUG - 2013-06-11 16:02:17 --> Output Class Initialized
+DEBUG - 2013-06-11 16:02:17 --> Security Class Initialized
+DEBUG - 2013-06-11 16:02:17 --> Input Class Initialized
+DEBUG - 2013-06-11 16:02:17 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-11 16:02:17 --> Language Class Initialized
+DEBUG - 2013-06-11 16:02:17 --> Loader Class Initialized
+DEBUG - 2013-06-11 16:02:17 --> Helper loaded: url_helper
+DEBUG - 2013-06-11 16:02:17 --> Helper loaded: form_helper
+DEBUG - 2013-06-11 16:02:17 --> Database Driver Class Initialized
+DEBUG - 2013-06-11 16:02:18 --> Session Class Initialized
+DEBUG - 2013-06-11 16:02:18 --> Helper loaded: string_helper
+DEBUG - 2013-06-11 16:02:18 --> Session routines successfully run
+DEBUG - 2013-06-11 16:02:18 --> Controller Class Initialized
+DEBUG - 2013-06-11 16:02:18 --> File loaded: application/views/blog/header_view.php
+DEBUG - 2013-06-11 16:02:18 --> File loaded: application/views/blog/sidebar_view.php
+DEBUG - 2013-06-11 16:02:18 --> File loaded: application/views/blog/footer_view.php
+ERROR - 2013-06-11 16:02:18 --> Severity: Notice  --> Undefined variable: haselko D:\Moje\UwAmp\www\application\views\aboutview.php 18
+DEBUG - 2013-06-11 16:02:18 --> File loaded: application/views/aboutview.php
+DEBUG - 2013-06-11 16:02:18 --> Final output sent to browser
+DEBUG - 2013-06-11 16:02:18 --> Total execution time: 1.2813
+DEBUG - 2013-06-11 16:02:19 --> Config Class Initialized
+DEBUG - 2013-06-11 16:02:19 --> Hooks Class Initialized
+DEBUG - 2013-06-11 16:02:19 --> Utf8 Class Initialized
+DEBUG - 2013-06-11 16:02:19 --> UTF-8 Support Enabled
+DEBUG - 2013-06-11 16:02:19 --> URI Class Initialized
+DEBUG - 2013-06-11 16:02:19 --> Router Class Initialized
+DEBUG - 2013-06-11 16:02:19 --> No URI present. Default controller set.
+DEBUG - 2013-06-11 16:02:19 --> Output Class Initialized
+DEBUG - 2013-06-11 16:02:19 --> Security Class Initialized
+DEBUG - 2013-06-11 16:02:19 --> Input Class Initialized
+DEBUG - 2013-06-11 16:02:19 --> Global POST and COOKIE data sanitized
+DEBUG - 2013-06-11 16:02:19 --> Language Class Initialized
+DEBUG - 2013-06-11 16:02:19 --> Loader Class Initialized
+DEBUG - 2013-06-11 16:02:19 --> Helper loaded: url_helper
+DEBUG - 2013-06-11 16:02:19 --> Helper loaded: form_helper
+DEBUG - 2013-06-11 16:02:19 --> Database Driver Class Initialized
+DEBUG - 2013-06-11 16:02:20 --> Session Class Initialized
+DEBUG - 2013-06-11 16:02:20 --> Helper loaded: string_helper
+DEBUG - 2013-06-11 16:02:20 --> Session routines successfully run
+DEBUG - 2013-06-11 16:02:20 --> Controller Class Initialized
+DEBUG - 2013-06-11 16:02:20 --> Pagination Class Initialized
+DEBUG - 2013-06-11 16:02:20 --> Helper loaded: date_helper
+DEBUG - 2013-06-11 16:02:20 --> Helper loaded: text_helper
+DEBUG - 2013-06-11 16:02:20 --> Model Class Initialized
+DEBUG - 2013-06-11 16:02:20 --> Model Class Initialized
+DEBUG - 2013-06-11 16:02:20 --> User Agent Class Initialized
+DEBUG - 2013-06-11 16:02:20 --> Form Validation Class Initialized
+DEBUG - 2013-06-11 16:02:20 --> File loaded: application/views/blog/header_view.php
+DEBUG - 2013-06-11 16:02:20 --> File loaded: application/views/blog/sidebar_view.php
+DEBUG - 2013-06-11 16:02:20 --> File loaded: application/views/blog/footer_view.php
+DEBUG - 2013-06-11 16:02:20 --> File loaded: application/views/blog/blog_view.php
+DEBUG - 2013-06-11 16:02:20 --> Final output sent to browser
+DEBUG - 2013-06-11 16:02:20 --> Total execution time: 1.6875

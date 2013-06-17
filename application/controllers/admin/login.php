@@ -20,7 +20,7 @@ class Login extends CI_Controller {
                         $result = $this->uq->fetch_confirmed_user_profile($username);
                         $num_res = count($result);
                         
-			if($num_res === 1) {
+			if($num_res == 1) {
                                 
 				$format = PBKDF2_HASH_ALGORITHM.":".PBKDF2_ITERATIONS.":".$result[0]->salt.":".$result[0]->password;
 				$is_valid = $this->mlib_sec->validate_password($password,$format);
@@ -39,7 +39,7 @@ class Login extends CI_Controller {
 				} else {
                                     #show error invalid username/password
                                     $array = array(
-                                                    'message'   =>  'Invalid username/password',
+                                                    'message'   =>  'Nieprawidłowy login/hasło',
                                                     'status'    =>  0
                                     );
                                     $this->session->set_userdata($array);
@@ -49,7 +49,7 @@ class Login extends CI_Controller {
 			} else {
 				#show error invalid username/password
                                 $array = array(
-                                                'message'   =>  'Invalid username/password',
+                                                'message'   =>  'Wpisany użytkownik nie istnieje w naszej bazie',
                                                 'status'    =>  'Error'
                                 );
                                 $this->session->set_userdata($array);
