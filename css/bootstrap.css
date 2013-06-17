@@ -544,6 +544,13 @@ h6 {
   color: inherit;
   text-rendering: optimizelegibility;
 }
+h10{  margin: 10px 17%;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;}
+
 h1 small,
 h2 small,
 h3 small,
@@ -556,6 +563,7 @@ h6 small {
 }
 h1,
 h2,
+h10,
 h3 {
   line-height: 40px;
 }
@@ -576,6 +584,9 @@ h5 {
 }
 h6 {
   font-size: 11.9px;
+}
+h10 {
+  font-size: 31.5px;
 }
 h1 small {
   font-size: 24.5px;

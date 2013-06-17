@@ -46,7 +46,7 @@
                                     } 
                                 }else {
                             ?>
-                            <tr><td colspan="6"><em>No posts found</em></td></tr>
+                            <tr><td colspan="6"><em>Nie znaleziono postów użytkownika</em></td></tr>
                             <?php
                                 }
                             ?>

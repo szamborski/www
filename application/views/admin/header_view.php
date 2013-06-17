@@ -27,6 +27,7 @@
     <link href="<?php echo base_url();?>css/bootstrap-responsive.css" rel="stylesheet">
     <link href="<?php echo base_url();?>css/global.css" rel="stylesheet">
     <link href="<?php echo base_url();?>css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo base_url();?>css/blog.css" />
     
     <script>var base_url = "<?php echo base_url().index_page(); ?>";</script>
   </head>
