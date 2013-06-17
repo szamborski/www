@@ -204,26 +204,32 @@ $(document).ready(function() {
                     address: $('#address').val()},
                 success: function(response) {
                     //  alert("Nie-Utworzono konto");
-                    $('.modal-body').empty().append('<p>' + response.message + '4324324');
+                    $('.modal-body').empty().append('<p>' + response.message + '');
                     $('label.ok').remove();
+                    if (response.status === 1) {
+                        $('#myModal').modal("show");
+                    }
+                    else{
+                         $('#myModal2').modal("show");
+                    }
+
                     console.log(response);
                 },
                 error: function(response) {
-                //    var url = base_url + 'blog';
+                    //    var url = base_url + 'blog';
                     // alert("Utworzono konto. \n\ Proszę poczekać na akceptację przez administratora. \n\ Dziękujemy");
-                    
-                    $('.modal-body').empty().append('Pomyślnie utworzono nowe konto.\n\ Proszę zaczekać na akceptacje administratora. \n\ Dziękujemy');
-                    $('#myModal').modal("show");
 
+                    //   $('.modal-body').empty().append(response.message);
+                    //   $('#myModal2').modal("show");
 
-                 //   $(location).attr('href', url);
+                    //   $(location).attr('href', url);
 
                     console.log(response);
                 }
             });
 
 
-            //  $('#myModal').modal("show");
+          //  $('#myModal').modal("show");
             return false;
         },
         // set new class to error-labels to indicate valid fields

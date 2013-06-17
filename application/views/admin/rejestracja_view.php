@@ -84,8 +84,13 @@ $atts = array(
 
 
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3 id="myModalLabel">Zarejestrowano</h3>
-    </div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-primary" data-dismiss="modal" aria-hidden="true" onclick="location.href='blog'">Ok</button></div>
+    <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3  text-align:center id="myModalLabel">Rejestracja zakończona powodzeniem!!!</h3>
+    </div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-primary" data-dismiss="modal" aria-hidden="true" onclick="location.href = 'blog'">Ok</button></div>  
+</div>
+
+<div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button><h3 text-align:center  id="myModalLabel">Rejestracja nieudana</h3>
+    </div><div class="modal-body"></div><div class="modal-footer"><button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Ok</button></div>  
 </div>
 <script type="text/javascript" src="<?= base_url() ?>js/jquery.js"></script>
 <script type="text/javascript" src="<?= base_url() ?>js/fileuploader.js"></script>
