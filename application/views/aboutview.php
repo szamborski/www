@@ -13,6 +13,3 @@ Tu znajda sie informacje o twórcach
 Musimy tez dodac kilka wpisow na blog, tematyka motoryzacji, wiecozerem wystawie  lacze na swiat z kompa to torche sie podopisuje
 
 <?php $this->load->view('blog/footer_view');
-
-
-echo $haselko;

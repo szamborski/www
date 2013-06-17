@@ -30,6 +30,7 @@ class Login extends CI_Controller {
 					$array = array(
                                                         'uid'       =>  $result[0]->id,
                                                         'username'  =>  $username,
+                                                        'typ_konta' =>  $result[0]->usertype,
                                                         'is_login'  =>  TRUE
 					);
                                         
