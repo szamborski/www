@@ -32,10 +32,17 @@ Class Postsq extends CI_Model {
            ");
         return $query->result();
     }
+    
+        public function pokaz_usera($id) {
+        $query = $this->db->query("
+                                        SELECT *
+                                        FROM pre_users
+                                        WHERE id=$id                          
+           ");
+        return $query->result();
+    }
 
-    
-    
-    
+
     public function zmien_prawa($id, $prawo) {
         $data = array('usertype' => $prawo);       
         $this->db->where('id', $id);

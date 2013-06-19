@@ -82,8 +82,6 @@ $(document).ready(function() {
     }) /* end of file upload */
 
 
-
-
     /* validate profile*/
     $("#profileform").validate({
         rules: {
@@ -209,8 +207,8 @@ $(document).ready(function() {
                     if (response.status === 1) {
                         $('#myModal').modal("show");
                     }
-                    else{
-                         $('#myModal2').modal("show");
+                    else {
+                        $('#myModal2').modal("show");
                     }
 
                     console.log(response);
@@ -229,7 +227,7 @@ $(document).ready(function() {
             });
 
 
-          //  $('#myModal').modal("show");
+            //  $('#myModal').modal("show");
             return false;
         },
         // set new class to error-labels to indicate valid fields
@@ -241,18 +239,24 @@ $(document).ready(function() {
     });//Rejestracja
     
     
-  /* validate profile*/
-    $("#modifityform").validate({  rules: {
-            email: {
-                required: true,
-                email: true
-            }
+
+
+    $("#profileupdateview").validate({
+        rules: {
+            login: "required",
+            firstname: "required",
+            lastname: "required"
         },
         messages: {
+            login: "Wpisz login",
+            firstname: "Wpisz imię",
+            lastname: "Wpisz nazwisko",
             email: {
                 required: "Please enter a valid email address",
                 minlength: "Please enter a valid email address"
-            }
+            },
+            contact: "Enter a valid contact number",
+            address: "Enter your full address"
         },
         errorPlacement: function(error, element) {
             element.parent().find('label:first').append(error);
@@ -260,20 +264,22 @@ $(document).ready(function() {
         submitHandler: function() {
             $.ajax({
                 type: 'POST',
-                url: base_url + 'admin/settings/save_profile',
+                url: base_url + 'admin/prawa/save_profile',
                 dataType: 'json',
                 data: {
+                    id: $('#id').val(),
                     lastname: $('#lastname').val(),
                     firstname: $('#firstname').val(),
-                    email: $('#email').val(),
-                    contact: $('#contact').val(),
-                    address: $('#address').val()
+                    confirmation: $('#confirmation').val(),
+                    usertype: $('#usertype').val()
                 },
                 success: function(response) {
+                    alert('Imie ' + $('#lastname').val() + ' Nazwisko ' + $('#firstname').val() + ' Nr: ' + $('#id').val() + 'Potwierdzony ' + $('#confirmation').val() + ' Typ konta ' + $('#usertype').val());
                     $('.modal-body').empty().append('<p>' + response.message + '')
                     $('label.ok').remove()
                 },
                 error: function(response) {
+                    alert('Imie ' + $('#lastname').val() + ' Nazwisko ' + $('#firstname').val() + ' Nr: ' + $('#id').val() + 'Potwierdzony ' + $('#confirmation').val() + ' Typ konta ' + $('#usertype').val());
                     $('.modal-body').empty().append(response.message)
                 }
             });
@@ -285,9 +291,7 @@ $(document).ready(function() {
             // set &nbsp; as text for IE
             label.html("&nbsp;").addClass("ok");
         }
-    });//profile save  
-    
-   
+    });//profile save
 });
 
 
