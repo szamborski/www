@@ -38,7 +38,7 @@ class Forgot extends CI_Controller {
                 $content = file_get_contents(FCPATH.'templates/forgot.txt');
                 $confirmation_link = base_url().'forgot/confirm/'.$token;
                 $mailed = FALSE;
-                
+                date_default_timezone_set("Europe/Warsaw"); 
                 $result = $this->uq->fetch_confirmed_user_profile_by_email($email);
                 $array = array(
                                 "id"        =>  $result[0]->id,
@@ -66,18 +66,18 @@ class Forgot extends CI_Controller {
                         $array = array('status'=>1,'message'=>"Please check your email");
                         $this->session->set_flashdata($array);
                     } else {
-                        $array = array('status'=>0,'message'=>"Failed to send the password confirmation link");
+                        $array = array('status'=>0,'message'=>"Email nie został wysłany. Brak  konfiguracji SMTP");
                         $this->session->set_flashdata($array);
                     }
                     
                 } else {
                     
-                    $array = array('status'=>0,'message'=>"Failed to send the password confirmation link");
+                    $array = array('status'=>0,'message'=>"Nie dodałem numerów do bazy, Wystąpił błąd.");
                     $this->session->set_flashdata($array);
                 }
                 
             } else { 
-                $array = array('status'=>0,'message'=>"Email does not exist / Un-confirmed");
+                $array = array('status'=>0,'message'=>"Email nie istnieje w naszej bazie. / Niepoprawny format.");
                 $this->session->set_flashdata($array);
             }
             

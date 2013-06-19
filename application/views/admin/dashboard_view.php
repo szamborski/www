@@ -7,8 +7,9 @@
           <div class="main">
           <div class="row-fluid">
               <div class="page-header">
-                <h2>Tablica</h2>
+                <h2>Menu</h2>
               </div>
+              Witamy w systemie zarządzania blogiem.   prosze wybrać interesujacą Cie opcje z lewego Menu.
           </div><!--/row-->
           </div><!--/main-->
         </div><!--/span-->

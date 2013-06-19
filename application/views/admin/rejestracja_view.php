@@ -67,8 +67,10 @@ $atts = array(
                         </p>
 
                         <p>
-                            <button class="btn btn-success" type="submit" id="save">Zarejestruj</button>
+                            <button class="btn btn-success" type="submit" id="save">Zarejestruj</button>&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="/blog" class="btn btn-primary" >Powrót na strone główną</a>
                         </p>
+                         
                     </form>
                 </div><!--/row-->
             </div><!--/main-->

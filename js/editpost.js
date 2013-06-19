@@ -4,10 +4,11 @@ $(document).ready(function(){
     tinyMCE.init({
         mode : "textareas",
         content_css: [base_url,"css/content.css"].join(''),
+        theme: "advanced",
         theme_advanced_buttons1 : "newdocument,|,bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,formatselect,fontselect,fontsizeselect,|,cut,copy,paste,pastetext,pasteword",
-        theme_advanced_buttons2 : "search,replace,|,bullist,numlist,|,outdent,indent,blockquote,|,undo,redo,|,link,unlink,anchor,image,cleanup,help,code,|,insertdate,inserttime,preview,|,forecolor,backcolor",
+        theme_advanced_buttons2 : "search,replace,|,bullist,numlist,|,outdent,indent,blockquote,|,undo,redo,|,link,unlink,anchor,image,youtubeIframe,cleanup,help,code,|,insertdate,inserttime,preview,|,forecolor,backcolor",
         theme_advanced_buttons3 : "",
-        plugins:"autoresize",
+        plugins:"autoresize,youtubeIframe",
         onchange_callback: function(editor) {
                 tinyMCE.triggerSave();
                 $("#" + editor.id).valid();
