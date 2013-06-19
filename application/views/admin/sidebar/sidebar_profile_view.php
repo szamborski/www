@@ -19,7 +19,7 @@
       <?php 
       if($typ_konta == 'admin')
           { ?>
-      <li><a href="<?=base_url()?>admin/settings/account"><i class="icon icon-edit"></i>Zarządzaj prawami</a></li>   
+      <li><a href="<?=base_url()?>admin/prawa"><i class="icon icon-edit"></i>Zarządzaj prawami</a></li>   
        <?php  }?>
       <li><a href="<?=base_url()?>admin/logout"><i class="icon icon-signout"></i> Wyloguj</a></li>
     </ul>

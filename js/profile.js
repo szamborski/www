@@ -239,4 +239,77 @@ $(document).ready(function() {
         }
 
     });//Rejestracja
+    
+    
+  /* validate profile*/
+    $("#modifityform").validate({  rules: {
+            email: {
+                required: true,
+                email: true
+            }
+        },
+        messages: {
+            email: {
+                required: "Please enter a valid email address",
+                minlength: "Please enter a valid email address"
+            }
+        },
+        errorPlacement: function(error, element) {
+            element.parent().find('label:first').append(error);
+        },
+        submitHandler: function() {
+            $.ajax({
+                type: 'POST',
+                url: base_url + 'admin/settings/save_profile',
+                dataType: 'json',
+                data: {
+                    lastname: $('#lastname').val(),
+                    firstname: $('#firstname').val(),
+                    email: $('#email').val(),
+                    contact: $('#contact').val(),
+                    address: $('#address').val()
+                },
+                success: function(response) {
+                    $('.modal-body').empty().append('<p>' + response.message + '')
+                    $('label.ok').remove()
+                },
+                error: function(response) {
+                    $('.modal-body').empty().append(response.message)
+                }
+            });
+            $('#myModal').modal("show");
+            return false;
+        },
+        // set new class to error-labels to indicate valid fields
+        success: function(label) {
+            // set &nbsp; as text for IE
+            label.html("&nbsp;").addClass("ok");
+        }
+    });//profile save  
+    
+   
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
